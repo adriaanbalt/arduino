@@ -1,19 +1,16 @@
 /*
- Fade
-
- This example shows how to fade an LED on pin 9
- using the analogWrite() function.
-
- This example code is in the public domain.
+ Random Brightness for LEDs
  */
 
 const int greenled = 3;           // the pin that the LED is attached to
 const int yellowled = 5;           // the pin that the LED is attached to
 const int redled = 6;           // the pin that the LED is attached to
 const int switchPin = 2;           // the pin that the LED is attached to
+
 int redBrightness = 0;    // how bright the LED is
 int greenBrightness = 0;    // how bright the LED is
 int yellowBrightness = 0;    // how bright the LED is
+
 int fadeAmount = 5;    // how many points to fade the LED by
 
 // the setup routine runs once when you press reset:
