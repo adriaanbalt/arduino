@@ -9,7 +9,7 @@ const int switchPin = 2;        // the pin that the SWITCH is attached to
 
 // the setup routine runs once when you press reset:
 void setup() {
-  // declare pin 9 to be an output:
+    // declare pin 9 to be an output:
     pinMode(greenled, OUTPUT);
     pinMode(yellowled, OUTPUT);
     pinMode(redled, OUTPUT);
